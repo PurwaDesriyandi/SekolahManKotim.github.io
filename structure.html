@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>MAN KOTAWARINGIN TIMUR</title>
+    <link rel="stylesheet" href="styleUAS.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+        $(document).ready(function() {
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 50) {
+                $('.header').addClass('scrolled');
+                $('.logo h1').addClass('scrolled');
+                $('.logo h2').addClass('scrolled');
+                $('.nav-links ul li a').addClass('scrolled');
+            } else {
+                $('.header').removeClass('scrolled');
+                $('.logo h1').removeClass('scrolled');
+                $('.logo h2').removeClass('scrolled');
+                $('.nav-links ul li a').removeClass('scrolled');
+            }
+    });
+  });
+</script>
+<script>
+    function toggleNavbar() {
+    const navLinks = document.querySelector('.nav-links');
+    navLinks.classList.toggle('show');
+}
+</script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.slider').slick({
+            autoplay: true,
+            autoplaySpeed: 2500,
+            dots: true
+        });
+    });
+</script>
+    <section class="header">
+        <nav>
+			<a href="index.html"><img src="img/logo.png"></a>
+			<div class="logo">
+				<h2><br>MADRASAH ALIYAH NEGERI</h2>
+				<h1>Kotawaringin Timur <br> Plus Keterampilan</h1>
+			</div>
+            <div class="nav-links">
+                <ul>
+                    <li class="active"><a href="index.html">HOME</a></li>
+                    <li><a href="profile.html">PROFILE</a></li>
+                    <li><a href="vision.html">VISION</a></li>
+                    <li><a href="structure.html">STRUCTURE</a></li>
+                    <li><a href="Extracurricular.html">EXTRACURRICULAR</a></li>
+                </ul>
+            </div>
+            <div class="navbar-toggle" onclick="toggleNavbar()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </section>
+
+    <section class="staff">
+    
+            <div class="man">
+                <h1>Guru & Staff</h1>
+            </div>
+            <div class="content">
+                <div class="data">
+                    <table width="677">
+                        <tbody>
+                            <tr>
+                                <td width="45" class="atas">No</td>
+                                <td width="309" class="atas">Nama</td>
+                                <td width="323" class="atas">Jabatan</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">01</td>
+                                <td>M.Rusidi, S.Ag, M.Pd.I</td>
+                                <td>Kepala Madrasah</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">02</td>
+                                <td>Drs. H. Idris</td>
+                                <td>Quran Hadits</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">03</td>
+                                <td>MDrs. Fatehurrahman</td>
+                                <td>Kimia</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">04</td>
+                                <td>Dra. Sri Agustini, M.Pd</td>
+                                <td>SKI</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">05</td>
+                                <td>Cipto Mardio, S.Ag.</td>
+                                <td>Fikih</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">06</td>
+                                <td>Fitri Saltinah, S.Pd.</td>
+                                <td>Matematika</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">07</td>
+                                <td>Jusman, S.Ag.</td>
+                                <td>SKI</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">08</td>
+                                <td>Ramadiyani, S.Pd.</td>
+                                <td>Bhs.Inggris/Sas.Inggris</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">09</td>
+                                <td>Hj. Jauharratu, S.Pd.</td>
+                                <td>Matematika</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">10</td>
+                                <td>Renny Veronika M., S.Sos.</td>
+                                <td>Antropologi/Sosiologi</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">11</td>
+                                <td>Ridwanto, S.Pd</td>
+                                <td>Ekonomi</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">12</td>
+                                <td>MHj. Umu Latifah, S.Ag.</td>
+                                <td>Qur’an Hadits</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">13</td>
+                                <td>Iwansyah, S.Pd.</td>
+                                <td>Bhs. Indonesia</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">14</td>
+                                <td>Umi Hayah, S.Ag.</td>
+                                <td>Akidah Akhlak</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">15</td>
+                                <td>Elja Deritaningsih, S.Pd.</td>
+                                <td>Geografi</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">16</td>
+                                <td>Nofie Nuruliah, S.E.</td>
+                                <td>Ekonomi</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">17</td>
+                                <td>Tri Harmawanti, S.Pd.</td>
+                                <td>Bhs.Indonesia/Sas.Indonesia</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">18</td>
+                                <td>Eko Suwandi, S.Ag.</td>
+                                <td>Ushul Fikih</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">19</td>
+                                <td>Parinah, SP.Si.</td>
+                                <td>Kimia</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">20</td>
+                                <td>Zubaidah, S.Pd.</td>
+                                <td>Biologi</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">21</td>
+                                <td>Siti Nurjanah, SP</td>
+                                <td>Kepala Madrasah</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">22</td>
+                                <td>Saleh, S.Ag.</td>
+                                <td>Akidah Akhlak</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">23</td>
+                                <td>Abdul Bahid, S.Ag.</td>
+                                <td>Bhs.Arab/Bhs.Asing</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">24</td>
+                                <td>M. Abdi Agus Musanif, S. Pd</td>
+                                <td>PPKn</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">25</td>
+                                <td>Kamariah, S.Pd</td>
+                                <td>Ekonomi</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">26</td>
+                                <td>Bambang Sulistia, S.Pd.</td>
+                                <td>Bhs. Indonesia</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">27</td>
+                                <td>Budi Riswanto, S.Pd.</td>
+                                <td>Fisika</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">28</td>
+                                <td>Gusnaini, S.T.</td>
+                                <td>Matematika</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">29</td>
+                                <td>Alwiyah, S.Ag, M.Pd.I</td>
+                                <td>Fikih</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">30</td>
+                                <td>Hj. Sri Windarti, S.Psis</td>
+                                <td>BP/BK</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">31</td>
+                                <td>Ma’rifah, SE., M. Pd.</td>
+                                <td>Ekonomi</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">32</td>
+                                <td>Dr.H.Alivermana Wiguna, S.Ag.,M.Ag.</td>
+                                <td>Fikih/Quran Hadits</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">33</td>
+                                <td>Erny Toyibatun, S.Pd</td>
+                                <td>Biologi</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">34</td>
+                                <td>Intan Permatasari, S.Pd.</td>
+                                <td>Bhs.Inggris/Sastra Inggris</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">35</td>
+                                <td>Lulut Suprapti, S.Pd</td>
+                                <td>BP/BK</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">36</td>
+                                <td>Imam Mulhakim, S.Pd.I</td>
+                                <td>Bhs.Arab/Ilmu Hadist</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">37</td>
+                                <td>Bagus Alfin Nur Hendarmoko, S.Pd</td>
+                                <td>Ekonomi/Prakarya</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">38</td>
+                                <td>Roudatul Khairiyah, S.Si</td>
+                                <td>Matematika</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">39</td>
+                                <td>Dedy Angreawan, S.Pd</td>
+                                <td>Penjaskes</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">40</td>
+                                <td>Najla Maulida Aziza, S.Pd.I</td>
+                                <td>Bhs.Arab</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">41</td>
+                                <td>Muhammad Rajul Kahfi, S.Pd</td>
+                                <td>Bhs. Indonesia</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">42</td>
+                                <td>Roniyadi, S.Pd</td>
+                                <td>Matematika</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">43</td>
+                                <td>Ponimin, S.Pd.</td>
+                                <td>Penjaskes</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">44</td>
+                                <td>Nur Aini, S.Pd.I.</td>
+                                <td>Bhs. Arab/Bhs. Asing</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">45</td>
+                                <td>Johariansyah, S.Kom.</td>
+                                <td>Prakarya</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">46</td>
+                                <td>Gatot Gunawan, S.Pd.</td>
+                                <td>Seni Budaya/PJOK </td>
+                            </tr>
+                            <tr>
+                                <td class="atas">47</td>
+                                <td>Dewi Novitasari, S.Pd.</td>
+                                <td>BP/BK</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">48</td>
+                                <td>Ummahatus Sholikhah, S.Pd.I</td>
+                                <td>SKI</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">49</td>
+                                <td>Eki Saraswati, S.Pd.I</td>
+                                <td>Seni Budaya/Biologi (LM)</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">50</td>
+                                <td>Siti Rahmah, S.Pd</td>
+                                <td>Sej.Indonesia</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">51</td>
+                                <td>Ira Ambarwati, S.Pd.</td>
+                                <td>Matematika/Prakarya</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">52</td>
+                                <td>Bagus Budi Cahyono, S.Pd.	</td>
+                                <td>Sej.Indonesia/Sejarah</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">53</td>
+                                <td>Feri Ramadani, S.Pd</td>
+                                <td>Quran Hadist/Akidah Akhlak</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">54</td>
+                                <td>Nina Yusac Rahmadani, S.Pd.I,M.Pd.</td>
+                                <td>Bhs. Arab/Ilmu Hadist</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">55</td>
+                                <td>Ipa Ramadhaan, S.Pd</td>
+                                <td>Bhs. Indonesia/Sej.Indo</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">56</td>
+                                <td>Kiky Arieska, S.Pd</td>
+                                <td>Sejarah Indonesia/Sejarah</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">57</td>
+                                <td>Levika Egita Sulistiyana, S.Pd</td>
+                                <td>Bhs. Inggris</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">58</td>
+                                <td>Tria Fitria Ningrum, S.Pd</td>
+                                <td>Bhs. Inggris</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">59</td>
+                                <td>Andina, S.Pd</td>
+                                <td>Sosiologi/Seni Budaya</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">60</td>
+                                <td>Noor Eka Febryana, S.Pd</td>
+                                <td>Biologi</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">61</td>
+                                <td>Nanik Purwandari, S.Pd</td>
+                                <td>Fisika/Seni Budaya</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">62</td>
+                                <td>Sri Widyaningrum, S.Pd</td>
+                                <td>PPKn</td>
+                            </tr>
+                            <tr>
+                                <td class="atas">63</td>
+                                <td>Azizah Kumalasari, M.Ag</td>
+                                <td>Ilmu Tafsir</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+    <div class="container">
+        <div class="slider">
+            <div class="berita-container">
+                <div class="berita">
+                        <div class="berita-blog">
+                            <a href="#">
+                            <a href="https://mankotim.sch.id/2023/10/29/tingkatkan-kecintaan-kepada-bahasa-persatuan-man-kotim-adakan-mastra/">
+                                <img src="img/7.png" alt="instagram post 1">
+                            </a>
+                            <h3><a href="https://mankotim.sch.id/2023/10/29/tingkatkan-kecintaan-kepada-bahasa-persatuan-man-kotim-adakan-mastra/">Tingkatkan Kecintaan kepada Bahasa Persatuan, MAN Kotim Adakan Mastra</a></h3>
+                            </a>
+                        </div>
+                        <div class="berita-blog">
+                            <a href="#">
+                            <a href="https://mankotim.sch.id/2023/09/20/pmr-man-kotim-raih-juara-umum/">
+                                <img src="img/1.png" alt="instagram post 2">
+                            </a>
+                            <h3><a href="https://mankotim.sch.id/2023/09/20/pmr-man-kotim-raih-juara-umum/">PMR MAN Kotim Raih Juara Umum</a></h3>
+                            </a>
+                        </div>
+                        <div class="berita-blog">
+                            <a href="#"> 
+                            <a href="https://mankotim.sch.id/2023/07/15/angkat-kearifan-lokal-man-kotim-raih-perunggu-di-bidang-riset-nasional2/">
+                                <img src="img/6.png" alt="instagram post 3">
+                            </a>
+                            <h3><a href="https://mankotim.sch.id/2023/07/15/angkat-kearifan-lokal-man-kotim-raih-perunggu-di-bidang-riset-nasional2/">Angkat Kearifan Lokal, MAN Kotim Raih Perunggu di Bidang Riset Nasional</a></h3>
+                            </a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <footer>
+		<div class="kiri">
+			<a><img src="https://i0.wp.com/mankotim.sch.id/wp-content/uploads/2021/09/MAN-LOGO.png"></a>
+			<p>MAN Kotawaringin TImur<br> Jl. HM. Arsyad No.68 Kode Pos 74322<br>Mentawa Baru Hulu, Mentawa Baru Ketapang,<br>Kab. Kotawaringin Timur, Kalimantan Tengah, Indonesia </p>
+		</div>
+		<div class="divider"></div>
+		<div class="kanan">
+			<div class="kanankiri">
+				<h1>f</h1>
+				<h1>c</h1>
+				<h1>y</h1>
+				<h1>></h1>
+			</div>
+            <div class="kanantengah">
+                <p>
+					<a href="https://www.facebook.com/mankotawaringintimur/">@mankotawaringintimur</a>
+				</p>
+				<p>
+					<a href="https://instagram.com/mankotim.official?igshid=YmMyMTA2M2Y=">@mankotim_official</a>
+				</p>
+				<p>
+					<a href="https://youtube.com/channel/UCavzkhkvoUWBQvHs4e2xbnA">MAN Kotim Official</a>
+				</p>
+				<p>
+					<a href="mankotim.official@gmail.com">mankotim.official@gmail.com</a>
+				</p>
+            </div>
+            <div class="kanankanan">
+                <iframe class="location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3985.870319142099!2d112.94679947472798!3d-2.54909209742921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2de2be326bfdfaff%3A0x890be21ba5d4cb44!2sMan%20Kotawaringin%20Timur!5e0!3m2!1sen!2sid!4v1701060977088!5m2!1sen!2sid" width="300" height="150" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+		</div>
+	</footer>
+	<div class="bawah">
+			© MAN Kotawaringin Timur
+	</div>
+</body>
+</html>
